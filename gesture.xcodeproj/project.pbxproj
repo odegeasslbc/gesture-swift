@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		62B396951A31BF8000FA285C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B396941A31BF8000FA285C /* AppDelegate.swift */; };
 		62B396971A31BF8000FA285C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B396961A31BF8000FA285C /* ViewController.swift */; };
-		62B3969A1A31BF8000FA285C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B396981A31BF8000FA285C /* Main.storyboard */; };
 		62B3969C1A31BF8000FA285C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62B3969B1A31BF8000FA285C /* Images.xcassets */; };
 		62B3969F1A31BF8000FA285C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62B3969D1A31BF8000FA285C /* LaunchScreen.xib */; };
 		62B396AB1A31BF8000FA285C /* gestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B396AA1A31BF8000FA285C /* gestureTests.swift */; };
+		62B396B51A31BF9A00FA285C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62B396B41A31BF9A00FA285C /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +30,12 @@
 		62B396931A31BF8000FA285C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62B396941A31BF8000FA285C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62B396961A31BF8000FA285C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		62B396991A31BF8000FA285C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		62B3969B1A31BF8000FA285C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		62B3969E1A31BF8000FA285C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		62B396A41A31BF8000FA285C /* gestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B396A91A31BF8000FA285C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62B396AA1A31BF8000FA285C /* gestureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gestureTests.swift; sourceTree = "<group>"; };
+		62B396B41A31BF9A00FA285C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 			children = (
 				62B396941A31BF8000FA285C /* AppDelegate.swift */,
 				62B396961A31BF8000FA285C /* ViewController.swift */,
-				62B396981A31BF8000FA285C /* Main.storyboard */,
+				62B396B41A31BF9A00FA285C /* Main.storyboard */,
 				62B3969B1A31BF8000FA285C /* Images.xcassets */,
 				62B3969D1A31BF8000FA285C /* LaunchScreen.xib */,
 				62B396921A31BF8000FA285C /* Supporting Files */,
@@ -192,7 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62B3969A1A31BF8000FA285C /* Main.storyboard in Resources */,
+				62B396B51A31BF9A00FA285C /* Main.storyboard in Resources */,
 				62B3969F1A31BF8000FA285C /* LaunchScreen.xib in Resources */,
 				62B3969C1A31BF8000FA285C /* Images.xcassets in Resources */,
 			);
@@ -236,14 +236,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		62B396981A31BF8000FA285C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				62B396991A31BF8000FA285C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		62B3969D1A31BF8000FA285C /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
